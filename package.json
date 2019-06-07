@@ -1,0 +1,36 @@
+{
+  "name": "gsm2xml2gsm",
+  "version": "1.0.0",
+  "description": "An utility converter to customize GSM models",
+  "main": "index.js",
+  "scripts": {
+    "run": "clear ; node src/boot.js",
+    "test": "cross-env NODE_ENV=test jest",
+    "test:cov": "npm test -- --coverage"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "keywords": [
+    "archicad",
+    "gsm",
+    "converter",
+    "data-parser",
+    "template",
+    "bim",
+    "pim"
+  ],
+  "author": "Olivier Lépine",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "@crapougnax/api-client-akeneo": "^0.2.0",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}

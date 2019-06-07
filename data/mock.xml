@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Symbol IsArchivable="false" IsPlaceable="true" MainGUID="C3323BF3-9442-A44F-9901-D6072E4723F4" MigrationValue="Normal" Owner="1196638531" Signature="1196644685" Version="37">
+<Ancestry SectVersion="1" SectionFlags="0" SubIdent="0" Template="false">
+	<MainGUID>F938E33A-329D-4A36-BE3E-85E126820996</MainGUID>
+	<MainGUID>103E8D2C-8230-42E1-9597-46F84CCE28C0</MainGUID>
+	<MainGUID>F5C68CB1-88AA-B74F-879B-41EC501F5171</MainGUID>
+</Ancestry>
+
+<CalledMacros SectVersion="2" SectionFlags="0" SubIdent="0">
+</CalledMacros>
+
+<!-- GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT -->
+
+<Script_3D SectVersion="20" SectionFlags="0" SubIdent="0">
+<![CDATA[
+material germaterial_1
+add 1,1,1
+block 1 , 1 , 1
+del 1
+
+material germaterial_2
+block 1 , 1 , 1
+]]>
+</Script_3D>
+
+<!-- GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT -->
+
+<Script_2D SectVersion="20" SectionFlags="0" SubIdent="0">
+<![CDATA[]]>
+</Script_2D>
+
+<!-- GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT -->
+
+<Script_1D SectVersion="20" SectionFlags="0" SubIdent="0">
+<![CDATA[
+project2 2,270,3
+]]>
+</Script_1D>
+
+<!-- GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT -->
+
+<Script_PR SectVersion="20" SectionFlags="0" SubIdent="0">
+<![CDATA[]]>
+</Script_PR>
+
+<!-- GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT -->
+
+<Script_UI SectVersion="20" SectionFlags="0" SubIdent="0">
+<![CDATA[]]>
+</Script_UI>
+
+<!-- GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT -->
+
+<Script_VL SectVersion="20" SectionFlags="0" SubIdent="0">
+<![CDATA[]]>
+</Script_VL>
+
+<!-- GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT -->
+
+<Script_FWM SectVersion="20" SectionFlags="0" SubIdent="0">
+<![CDATA[]]>
+</Script_FWM>
+
+<!-- GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT -->
+
+<Script_BWM SectVersion="20" SectionFlags="0" SubIdent="0">
+<![CDATA[]]>
+</Script_BWM>
+
+<ParamSection SectVersion="25" SectionFlags="0" SubIdent="0">
+	<ParamSectHeader>
+		<Version>25</Version>
+		<AutoHotspots>false</AutoHotspots>
+		<StatBits>
+			<STBit_FixSize/>
+		</StatBits>
+		<WDLeftFrame>0</WDLeftFrame>
+		<WDRightFrame>0</WDRightFrame>
+		<WDTopFrame>0</WDTopFrame>
+		<WDBotFrame>0</WDBotFrame>
+		<LayFlags>65535</LayFlags>
+		<WDMirrorThickness>0</WDMirrorThickness>
+		<WDWallInset>0</WDWallInset>
+		<SymbolColor>0</SymbolColor>
+	</ParamSectHeader>
+	<Parameters>
+		<Length Name="A">
+			<Description><![CDATA["1ère dimension"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+		<Length Name="B">
+			<Description><![CDATA["2ème dimension"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+		<Length Name="ZZYZX">
+			<Description><![CDATA["Hauteur"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+		<Boolean Name="AC_show2DHotspotsIn3D">
+			<Description><![CDATA["Afficher points chauds 2D en 3D"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>1</Value>
+		</Boolean>
+		<Length Name="ac_bottomlevel">
+			<Description><![CDATA["Niveau inférieur"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>1</Value>
+		</Length>
+		<Length Name="ac_toplevel">
+			<Description><![CDATA["Niveau supérieur"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Length>
+		<String Name="MobilierGe_C">
+			<Description><![CDATA["STYLE"]]></Description>
+			<Fix/>
+			<Value><![CDATA[""]]></Value>
+		</String>
+		<Boolean Name="MobilierGe_A">
+			<Description><![CDATA["STANDING"]]></Description>
+			<Fix/>
+			<Value>0</Value>
+		</Boolean>
+		<Boolean Name="MobilierGe_B">
+			<Description><![CDATA["STANDING+"]]></Description>
+			<Fix/>
+			<Value>0</Value>
+		</Boolean>
+		<Boolean Name="MobilierGe_D">
+			<Description><![CDATA["PRIVILÈGE"]]></Description>
+			<Fix/>
+			<Value>0</Value>
+		</Boolean>
+		<Separator Name="MobilierGe_sp0">
+			<Description><![CDATA[""]]></Description>
+			<Fix/>
+		</Separator>
+
+		<!-- gs_list: PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK -->
+
+		<Title Name="gs_list">
+			<Description><![CDATA["Paramètres pour liste"]]></Description>
+			<Fix/>
+		</Title>
+		<RealNum Name="gs_list_cost">
+			<Description><![CDATA["Coût"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</RealNum>
+		<RealNum Name="gs_liste_vente">
+			<Description><![CDATA["Prix moyen"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</RealNum>
+		<String Name="FM_SerialNumber">
+			<Description><![CDATA["Ref ERP"]]></Description>
+			<Fix/>
+			<Value><![CDATA[" "]]></Value>
+		</String>
+		<String Name="FM_InventoryNumber">
+			<Description><![CDATA["Ref Geria"]]></Description>
+			<Fix/>
+			<Value><![CDATA[""]]></Value>
+		</String>
+		<String Name="gs_list_note">
+			<Description><![CDATA["description"]]></Description>
+			<Fix/>
+			<Value><![CDATA[" "]]></Value>
+		</String>
+		<Length Name="gs_list_ml">
+			<Description><![CDATA["metrage linéaire"]]></Description>
+			<Fix/>
+			<Value>0</Value>
+		</Length>
+		<Length Name="MobilierGe_E">
+			<Description><![CDATA["Hauteur Accoudoir"]]></Description>
+			<Fix/>
+			<Value>0</Value>
+		</Length>
+		<Length Name="MobilierGe_F">
+			<Description><![CDATA["Hauteur Assise"]]></Description>
+			<Fix/>
+			<Value>0</Value>
+		</Length>
+		<Boolean Name="MobilierGe_I">
+			<Description><![CDATA["Assise amovible"]]></Description>
+			<Fix/>
+			<Value>0</Value>
+		</Boolean>
+		<String Name="gs_list_manufacturer">
+			<Description><![CDATA["Fabricant"]]></Description>
+			<Fix/>
+			<Value><![CDATA[""]]></Value>
+		</String>
+		<String Name="gs_list_origin">
+			<Description><![CDATA["Origine"]]></Description>
+			<Fix/>
+			<Value><![CDATA[""]]></Value>
+		</String>
+		<RealNum Name="gs_list_Volume">
+			<Description><![CDATA["Volume"]]></Description>
+			<Fix/>
+			<Value>0</Value>
+		</RealNum>
+		<RealNum Name="FM_ObjectWeight">
+			<Description><![CDATA["Poids de l'objet"]]></Description>
+			<Fix/>
+			<Value>0</Value>
+		</RealNum>
+		<String Name="FM_ObjectWeightUnit">
+			<Description><![CDATA["Unité Poids de l'objet"]]></Description>
+			<Fix/>
+			<Value><![CDATA["Kg"]]></Value>
+		</String>
+		<Separator Name="MobilierGe_sp1">
+			<Description><![CDATA[""]]></Description>
+			<Fix/>
+		</Separator>
+		<Boolean Name="MobilierGe_G">
+			<Description><![CDATA["Disponibilité"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Boolean>
+		<Boolean Name="MobilierGe_H">
+			<Description><![CDATA["Titre objet 2D"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Boolean>
+		<Boolean Name="show_in_3D">
+			<Description><![CDATA["Afficher en 3D"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Boolean>
+		<Length Name="tailletexte">
+			<Description><![CDATA["Taille Titre"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+
+		<!-- FILL_TITLE: PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK -->
+
+		<Title Name="FILL_TITLE">
+			<Description><![CDATA["ligne et hachure"]]></Description>
+			<Fix/>
+		</Title>
+		<FillPattern Name="fillAttribute_1">
+			<Description><![CDATA["Hachure 1"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>64</Value>
+		</FillPattern>
+		<FillPattern Name="fillAttribute_2">
+			<Description><![CDATA["Hachure 2"]]></Description>
+			<Fix/>
+			<Value>27</Value>
+		</FillPattern>
+		<LineType Name="lineTypeAttribute_1">
+			<Description><![CDATA[""]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</LineType>
+
+		<!-- PEN_TITLE: PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK -->
+
+		<Title Name="PEN_TITLE">
+			<Description><![CDATA["STYLOS"]]></Description>
+			<Fix/>
+		</Title>
+		<PenColor Name="penAttribute_1">
+			<Description><![CDATA["Stylo Hachure fond"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>92</Value>
+		</PenColor>
+		<PenColor Name="penAttribute_2">
+			<Description><![CDATA["Stylo 2"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>1</Value>
+		</PenColor>
+		<PenColor Name="penAttribute_3">
+			<Description><![CDATA["Stylo contours"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</PenColor>
+		<PenColor Name="penAttribute_4">
+			<Description><![CDATA["Stylo hachure ombre"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>94</Value>
+		</PenColor>
+		<PenColor Name="penAttribute_5">
+			<Description><![CDATA["Stylo 5"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>19</Value>
+		</PenColor>
+
+		<!-- gs_material: PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK -->
+
+		<Title Name="gs_material">
+			<Description><![CDATA["Surfaces"]]></Description>
+			<Fix/>
+		</Title>
+		<Material Name="materialAttribute_1">
+			<Description><![CDATA["Texture01"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Material>
+		<Material Name="materialAttribute_2">
+			<Description><![CDATA["Texture02"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Material>
+		<Material Name="materialAttribute_3">
+			<Description><![CDATA["Texture03"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Material>
+		<Material Name="materialAttribute_4">
+			<Description><![CDATA["Texture04"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Material>
+		<Material Name="materialAttribute_5">
+			<Description><![CDATA["Texture05"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Material>
+		<Material Name="materialAttribute_6">
+			<Description><![CDATA["Texture06"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Material>
+		<Material Name="materialAttribute_7">
+			<Description><![CDATA["Texture07"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Material>
+		<Material Name="materialAttribute_8">
+			<Description><![CDATA["Texture08"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Material>
+		<Material Name="materialAttribute_9">
+			<Description><![CDATA["Texture09"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Material>
+		<Material Name="materialAttribute_10">
+			<Description><![CDATA["Texture10"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Material>
+		<Separator Name="MobilierGe_sp2">
+			<Description><![CDATA[""]]></Description>
+			<Fix/>
+		</Separator>
+		<Material Name="GerMaterial_1">
+			<Description><![CDATA["Tissu extérieur"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>145</Value>
+		</Material>
+		<Material Name="GerMaterial_2">
+			<Description><![CDATA["Tissu intérieur"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>176</Value>
+		</Material>
+		<Material Name="GerMaterial_3">
+			<Description><![CDATA["Acoudoir"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_4">
+			<Description><![CDATA["Passepoil"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_5">
+			<Description><![CDATA["Tissu Cale reins"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_6">
+			<Description><![CDATA["Tissu tétiere"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_7">
+			<Description><![CDATA["Tissu assise"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_8">
+			<Description><![CDATA["Bois horizontal"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_9">
+			<Description><![CDATA["Bois vertical"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_10">
+			<Description><![CDATA["Métal"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_11">
+			<Description><![CDATA["Verre"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_12">
+			<Description><![CDATA["Plateau"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_13">
+			<Description><![CDATA["Pied"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_14">
+			<Description><![CDATA["Tissu rideaux"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_15">
+			<Description><![CDATA["Boutons"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+		<Material Name="GerMaterial_16">
+			<Description><![CDATA["Chants"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Child/>
+			</Flags>
+			<Value>1</Value>
+		</Material>
+	</Parameters>
+</ParamSection>
+
+<Copyright SectVersion="1" SectionFlags="0" SubIdent="0">
+	<Author></Author>
+	<License>
+		<Type>CC0</Type>
+		<Version>1.0</Version>
+	</License>
+</Copyright>
+
+<Keywords SectVersion="1" SectionFlags="0" SubIdent="0">
+<![CDATA[]]>
+</Keywords>
+
+<!-- GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT ===== GDL SCRIPT -->
+
+<Comment SectVersion="20" SectionFlags="0" SubIdent="0">
+<![CDATA[]]>
+</Comment>
+
+</Symbol>
